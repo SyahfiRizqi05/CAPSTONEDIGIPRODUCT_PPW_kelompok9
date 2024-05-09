@@ -133,7 +133,7 @@ if(isset($_POST['delete_comment'])){
 
 
 
-<?php include 'components/footer.php'; ?>
+
 
 <!-- custom js file link  -->
 <script src="js/script.js"></script>
