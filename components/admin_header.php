@@ -33,10 +33,7 @@ if(isset($message)){
       <a href="../index.php" style="color:var(--red);" onclick="return confirm('logout from the website?');"><i class="fas fa-right-from-bracket"></i><span>logout</span></a>
    </nav>
 
-   <div class="flex-btn">
-      <a href="admin_login.php" class="option-btn">login</a>
-      <a href="register_admin.php" class="option-btn">register</a>
-   </div>
+
 
 </header>
 

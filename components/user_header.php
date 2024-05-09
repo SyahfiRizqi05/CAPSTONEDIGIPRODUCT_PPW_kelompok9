@@ -15,7 +15,7 @@ if(isset($message)){
 
    <section class="flex">
 
-      <a href="home.php" class="logo">Artikel Efek Rumah Kaca.</a>
+      <a href="index.php" class="logo">Artikel Efek Rumah Kaca.</a>
 
       <form action="search.php" method="POST" class="search-form">
          <input type="text" name="search_box" class="box" maxlength="100" placeholder="search for blogs" required>
@@ -29,10 +29,9 @@ if(isset($message)){
       </div>
 
       <nav class="navbar">
-         <a href="home.php"> <i class="fas fa-angle-right"></i> home</a>
+         <a href="index.php"> <i class="fas fa-angle-right"></i> home</a>
          <a href="all_category.php"> <i class="fas fa-angle-right"></i> category</a>
          <a href="login.php"> <i class="fas fa-angle-right"></i> login</a>
-         <a href="register.php"> <i class="fas fa-angle-right"></i> register</a>
       </nav>
 
       <div class="profile">
@@ -44,10 +43,6 @@ if(isset($message)){
          ?>
          <p class="name"><?= $fetch_profile['name']; ?></p>
          <a href="update.php" class="btn">update profile</a>
-         <div class="flex-btn">
-            <a href="login.php" class="option-btn">login</a>
-            <a href="register.php" class="option-btn">register</a>
-         </div> 
          <a href="components/user_logout.php" onclick="return confirm('logout from this website?');" class="delete-btn">logout</a>
          <?php
             }else{
