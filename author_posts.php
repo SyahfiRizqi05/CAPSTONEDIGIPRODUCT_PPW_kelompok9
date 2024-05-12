@@ -112,7 +112,7 @@ include 'components/like_post.php';
 
 
 
-<?php include 'components/footer.php'; ?>
+
 
 
 
